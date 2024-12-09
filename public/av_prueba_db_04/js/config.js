@@ -14,7 +14,7 @@ function jumptoSlide(slide) {
       } else {
          localStorage.getItem("ambiente") === "local"
          ? document.location = `/public/${veeva.zipName}${slide}/${veeva.zipName}${slide}.html`
-         : document.location = `/Ejercicio-IndexBD/public/${zipName}${slide}/${zipName}${slide}.html`;
+         : document.location = `/TestIndexBD/public/${zipName}${slide}/${zipName}${slide}.html`;
       }
    } else {
       console.error("Error: Configuración de Veeva no encontrada.");
